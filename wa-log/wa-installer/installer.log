@@ -1,0 +1,3287 @@
+2024-10-31T08:58:34+00:0000001	6BA	DEBUG	1.15Mb	1.59Mb	
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-log/wa-installer',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000002	6BA	DEBUG	1.15Mb	1.59Mb	
+waInstaller::protect
+{------------------------------------------------------------
+array (
+  'path' => 'wa-log/wa-installer',
+  'htaccess' => 'wa-log/.htaccess',
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000003	6BA	DEBUG	1.15Mb	1.59Mb	
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'update',
+  'stage_name' => 'unkown_none',
+  'state_heartbeat' => false,
+  'thread_id' => '6BA',
+  'chunk_id' => NULL,
+  'stage_status' => 'none',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.581325,
+  'stage_start_time' => 1730365114.581326,
+  'stage_performance' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000004	6BA	DEBUG	1.21Mb	1.59Mb	
+waInstaller::formatUpdateList tree
+{------------------------------------------------------------
+array (
+  'targets' => 
+  array (
+    0 => 'wa-apps/apiexplorer/',
+    1 => 'wa-apps/blog/',
+    2 => 'wa-apps/checklists/',
+    3 => 'wa-apps/contacts/',
+    4 => 'wa-apps/developer/',
+    5 => 'wa-apps/dummy/',
+    6 => 'wa-apps/guestbook/',
+    7 => 'wa-apps/guestbook2/',
+    8 => 'wa-apps/installer/',
+    9 => 'wa-apps/photos/',
+    10 => 'wa-apps/shop/',
+    11 => 'wa-apps/site/',
+    12 => 'wa-apps/stickies/',
+    13 => 'wa-apps/team/',
+    14 => 'wa-apps/ui/',
+  ),
+  'update_list' => 
+  array (
+    0 => 
+    array (
+      'source' => '/var/www/html/wa-apps/apiexplorer',
+      'target' => 'wa-apps/apiexplorer/',
+      'slug' => 'wa-apps/apiexplorer',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/apiexplorer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    1 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog',
+      'target' => 'wa-apps/blog/',
+      'slug' => 'wa-apps/blog',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    2 => 
+    array (
+      'source' => '/var/www/html/wa-apps/checklists',
+      'target' => 'wa-apps/checklists/',
+      'slug' => 'wa-apps/checklists',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/checklists/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    3 => 
+    array (
+      'source' => '/var/www/html/wa-apps/contacts',
+      'target' => 'wa-apps/contacts/',
+      'slug' => 'wa-apps/contacts',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/contacts/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    4 => 
+    array (
+      'source' => '/var/www/html/wa-apps/developer',
+      'target' => 'wa-apps/developer/',
+      'slug' => 'wa-apps/developer',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/developer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    5 => 
+    array (
+      'source' => '/var/www/html/wa-apps/dummy',
+      'target' => 'wa-apps/dummy/',
+      'slug' => 'wa-apps/dummy',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/dummy/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    6 => 
+    array (
+      'source' => '/var/www/html/wa-apps/guestbook',
+      'target' => 'wa-apps/guestbook/',
+      'slug' => 'wa-apps/guestbook',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/guestbook/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    7 => 
+    array (
+      'source' => '/var/www/html/wa-apps/guestbook2',
+      'target' => 'wa-apps/guestbook2/',
+      'slug' => 'wa-apps/guestbook2',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/guestbook2/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    8 => 
+    array (
+      'source' => '/var/www/html/wa-apps/installer',
+      'target' => 'wa-apps/installer/',
+      'slug' => 'wa-apps/installer',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/installer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    9 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos',
+      'target' => 'wa-apps/photos/',
+      'slug' => 'wa-apps/photos',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    10 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop',
+      'target' => 'wa-apps/shop/',
+      'slug' => 'wa-apps/shop',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    11 => 
+    array (
+      'source' => '/var/www/html/wa-apps/site',
+      'target' => 'wa-apps/site/',
+      'slug' => 'wa-apps/site',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/site/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    12 => 
+    array (
+      'source' => '/var/www/html/wa-apps/stickies',
+      'target' => 'wa-apps/stickies/',
+      'slug' => 'wa-apps/stickies',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/stickies/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    13 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team',
+      'target' => 'wa-apps/team/',
+      'slug' => 'wa-apps/team',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    14 => 
+    array (
+      'source' => '/var/www/html/wa-apps/ui',
+      'target' => 'wa-apps/ui/',
+      'slug' => 'wa-apps/ui',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/ui/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    15 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/akismet',
+      'target' => 'wa-apps/blog/plugins/akismet/',
+      'slug' => 'wa-apps/blog/plugins/akismet',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/akismet/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    16 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/category',
+      'target' => 'wa-apps/blog/plugins/category/',
+      'slug' => 'wa-apps/blog/plugins/category',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/category/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    17 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/emailsubscription',
+      'target' => 'wa-apps/blog/plugins/emailsubscription/',
+      'slug' => 'wa-apps/blog/plugins/emailsubscription',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/emailsubscription/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    18 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/favorite',
+      'target' => 'wa-apps/blog/plugins/favorite/',
+      'slug' => 'wa-apps/blog/plugins/favorite',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/favorite/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    19 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/gravatar',
+      'target' => 'wa-apps/blog/plugins/gravatar/',
+      'slug' => 'wa-apps/blog/plugins/gravatar',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/gravatar/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    20 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/import',
+      'target' => 'wa-apps/blog/plugins/import/',
+      'slug' => 'wa-apps/blog/plugins/import',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/import/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    21 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/markdown',
+      'target' => 'wa-apps/blog/plugins/markdown/',
+      'slug' => 'wa-apps/blog/plugins/markdown',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/markdown/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    22 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/myposts',
+      'target' => 'wa-apps/blog/plugins/myposts/',
+      'slug' => 'wa-apps/blog/plugins/myposts',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/myposts/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    23 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/tag',
+      'target' => 'wa-apps/blog/plugins/tag/',
+      'slug' => 'wa-apps/blog/plugins/tag',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/tag/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    24 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/troll',
+      'target' => 'wa-apps/blog/plugins/troll/',
+      'slug' => 'wa-apps/blog/plugins/troll',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/troll/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    25 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/comments',
+      'target' => 'wa-apps/photos/plugins/comments/',
+      'slug' => 'wa-apps/photos/plugins/comments',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/comments/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    26 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/imageeffects',
+      'target' => 'wa-apps/photos/plugins/imageeffects/',
+      'slug' => 'wa-apps/photos/plugins/imageeffects',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/imageeffects/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    27 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/import',
+      'target' => 'wa-apps/photos/plugins/import/',
+      'slug' => 'wa-apps/photos/plugins/import',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/import/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    28 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/publicgallery',
+      'target' => 'wa-apps/photos/plugins/publicgallery/',
+      'slug' => 'wa-apps/photos/plugins/publicgallery',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/publicgallery/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    29 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/watermark',
+      'target' => 'wa-apps/photos/plugins/watermark/',
+      'slug' => 'wa-apps/photos/plugins/watermark',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/watermark/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    30 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/brands',
+      'target' => 'wa-apps/shop/plugins/brands/',
+      'slug' => 'wa-apps/shop/plugins/brands',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/brands/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    31 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/chestnyznak',
+      'target' => 'wa-apps/shop/plugins/chestnyznak/',
+      'slug' => 'wa-apps/shop/plugins/chestnyznak',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/chestnyznak/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    32 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/cml1c',
+      'target' => 'wa-apps/shop/plugins/cml1c/',
+      'slug' => 'wa-apps/shop/plugins/cml1c',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/cml1c/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    33 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/consignmentru',
+      'target' => 'wa-apps/shop/plugins/consignmentru/',
+      'slug' => 'wa-apps/shop/plugins/consignmentru',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/consignmentru/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    34 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/debug',
+      'target' => 'wa-apps/shop/plugins/debug/',
+      'slug' => 'wa-apps/shop/plugins/debug',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/debug/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    35 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/favoriteproducts',
+      'target' => 'wa-apps/shop/plugins/favoriteproducts/',
+      'slug' => 'wa-apps/shop/plugins/favoriteproducts',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/favoriteproducts/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    36 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/genorder',
+      'target' => 'wa-apps/shop/plugins/genorder/',
+      'slug' => 'wa-apps/shop/plugins/genorder',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/genorder/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    37 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/invoice',
+      'target' => 'wa-apps/shop/plugins/invoice/',
+      'slug' => 'wa-apps/shop/plugins/invoice',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/invoice/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    38 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/invoiceru',
+      'target' => 'wa-apps/shop/plugins/invoiceru/',
+      'slug' => 'wa-apps/shop/plugins/invoiceru',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/invoiceru/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    39 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/migrate',
+      'target' => 'wa-apps/shop/plugins/migrate/',
+      'slug' => 'wa-apps/shop/plugins/migrate',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/migrate/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    40 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/redirect',
+      'target' => 'wa-apps/shop/plugins/redirect/',
+      'slug' => 'wa-apps/shop/plugins/redirect',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/redirect/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    41 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/transferconsignment',
+      'target' => 'wa-apps/shop/plugins/transferconsignment/',
+      'slug' => 'wa-apps/shop/plugins/transferconsignment',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/transferconsignment/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    42 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/watermark',
+      'target' => 'wa-apps/shop/plugins/watermark/',
+      'slug' => 'wa-apps/shop/plugins/watermark',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/watermark/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    43 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/yandexmarket',
+      'target' => 'wa-apps/shop/plugins/yandexmarket/',
+      'slug' => 'wa-apps/shop/plugins/yandexmarket',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/yandexmarket/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    44 => 
+    array (
+      'source' => '/var/www/html/wa-apps/site/plugins/rublesign',
+      'target' => 'wa-apps/site/plugins/rublesign/',
+      'slug' => 'wa-apps/site/plugins/rublesign',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/site/plugins/rublesign/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    45 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/caldav',
+      'target' => 'wa-apps/team/plugins/caldav/',
+      'slug' => 'wa-apps/team/plugins/caldav',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/caldav/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    46 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/googlecalendar',
+      'target' => 'wa-apps/team/plugins/googlecalendar/',
+      'slug' => 'wa-apps/team/plugins/googlecalendar',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/googlecalendar/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    47 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/ics',
+      'target' => 'wa-apps/team/plugins/ics/',
+      'slug' => 'wa-apps/team/plugins/ics',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/ics/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+    48 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/office365',
+      'target' => 'wa-apps/team/plugins/office365/',
+      'slug' => 'wa-apps/team/plugins/office365',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/office365/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+    ),
+  ),
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000005	6BA	DEBUG	1.21Mb	1.59Mb	
+callback
+{------------------------------------------------------------
+array (
+  0 => 
+  array (
+    'file' => '/wa-installer/lib/classes/wainstaller.class.php:162',
+    'function' => 'waInstaller->envSet()',
+  ),
+  1 => 
+  array (
+    'file' => '/wa-installer/install.php:552',
+    'function' => 'waInstaller->update(Array(49))',
+  ),
+  2 => 
+  array (
+    'file' => '/install.php:4',
+    'function' => 'require_once',
+  ),
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000006	6BA	TRACE	1.23Mb	1.59Mb	
+Register ob error handler
+{------------------------------------------------------------
+true
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000007	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.006268978118896484,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/apiexplorer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.587557,
+  'stage_start_time' => 1730365114.587557,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000008	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0001919269561767578,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/apiexplorer',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.587748,
+  'stage_start_time' => 1730365114.587748,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000009	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003159046173095703,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.588059,
+  'stage_start_time' => 1730365114.58806,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000010	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00022101402282714844,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.588279,
+  'stage_start_time' => 1730365114.588279,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000011	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00020194053649902344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/checklists',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.588478,
+  'stage_start_time' => 1730365114.588478,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000012	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002448558807373047,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/checklists',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.588722,
+  'stage_start_time' => 1730365114.588722,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000013	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002129077911376953,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/contacts',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.588932,
+  'stage_start_time' => 1730365114.588932,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000014	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00019788742065429688,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/contacts',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.589129,
+  'stage_start_time' => 1730365114.589129,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000015	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00025391578674316406,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/developer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.58938,
+  'stage_start_time' => 1730365114.58938,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000016	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002079010009765625,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/developer',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.589587,
+  'stage_start_time' => 1730365114.589587,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000017	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002040863037109375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/dummy',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.589789,
+  'stage_start_time' => 1730365114.589789,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000018	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002110004425048828,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/dummy',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.589999,
+  'stage_start_time' => 1730365114.589999,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000019	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00021004676818847656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/guestbook',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.590206,
+  'stage_start_time' => 1730365114.590206,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000020	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00020599365234375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/guestbook',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.590411,
+  'stage_start_time' => 1730365114.590411,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000021	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00020503997802734375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/guestbook2',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.590614,
+  'stage_start_time' => 1730365114.590614,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000022	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00015687942504882812,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/guestbook2',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.59077,
+  'stage_start_time' => 1730365114.59077,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000023	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00019598007202148438,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.590962,
+  'stage_start_time' => 1730365114.590962,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000024	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002410411834716797,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.591202,
+  'stage_start_time' => 1730365114.591202,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000025	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002739429473876953,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.591473,
+  'stage_start_time' => 1730365114.591473,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000026	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00017690658569335938,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.591649,
+  'stage_start_time' => 1730365114.591649,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000027	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00023984909057617188,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.591887,
+  'stage_start_time' => 1730365114.591887,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000028	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004429817199707031,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.592329,
+  'stage_start_time' => 1730365114.592329,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000029	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002980232238769531,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.592623,
+  'stage_start_time' => 1730365114.592623,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000030	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003859996795654297,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.593007,
+  'stage_start_time' => 1730365114.593007,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000031	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003559589385986328,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/stickies',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.593359,
+  'stage_start_time' => 1730365114.593359,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000032	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002300739288330078,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/stickies',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.593588,
+  'stage_start_time' => 1730365114.593588,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000033	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00030994415283203125,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.593895,
+  'stage_start_time' => 1730365114.593895,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000034	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002720355987548828,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.594166,
+  'stage_start_time' => 1730365114.594166,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000035	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002999305725097656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/ui',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.594463,
+  'stage_start_time' => 1730365114.594463,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000036	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00025200843811035156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/ui',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.594714,
+  'stage_start_time' => 1730365114.594714,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000037	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00025200843811035156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/akismet',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.594963,
+  'stage_start_time' => 1730365114.594963,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000038	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00028395652770996094,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/akismet',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.595246,
+  'stage_start_time' => 1730365114.595246,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000039	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00028586387634277344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/category',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.595529,
+  'stage_start_time' => 1730365114.595529,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000040	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00028395652770996094,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/category',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.595812,
+  'stage_start_time' => 1730365114.595812,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000041	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002830028533935547,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/emailsubscription',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.596093,
+  'stage_start_time' => 1730365114.596093,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000042	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.000286102294921875,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/emailsubscription',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.596378,
+  'stage_start_time' => 1730365114.596378,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000043	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002918243408203125,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/favorite',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.596667,
+  'stage_start_time' => 1730365114.596668,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000044	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00015783309936523438,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/favorite',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.596825,
+  'stage_start_time' => 1730365114.596825,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000045	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00025916099548339844,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/gravatar',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.597079,
+  'stage_start_time' => 1730365114.597079,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000046	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002808570861816406,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/gravatar',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.597359,
+  'stage_start_time' => 1730365114.597359,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000047	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003230571746826172,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/import',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.59768,
+  'stage_start_time' => 1730365114.59768,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000048	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003108978271484375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/import',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.59799,
+  'stage_start_time' => 1730365114.59799,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000049	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00031685829162597656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/markdown',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.598305,
+  'stage_start_time' => 1730365114.598305,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000050	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00031304359436035156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/markdown',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.598618,
+  'stage_start_time' => 1730365114.598618,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000051	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00031495094299316406,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/myposts',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.598931,
+  'stage_start_time' => 1730365114.598931,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000052	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004220008850097656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/myposts',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.599352,
+  'stage_start_time' => 1730365114.599352,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000053	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003612041473388672,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/tag',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.599708,
+  'stage_start_time' => 1730365114.599708,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000054	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003879070281982422,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/tag',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.600094,
+  'stage_start_time' => 1730365114.600095,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000055	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00028896331787109375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/troll',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.600381,
+  'stage_start_time' => 1730365114.600381,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000056	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00017309188842773438,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/blog/plugins/troll',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.600553,
+  'stage_start_time' => 1730365114.600553,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000057	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00020194053649902344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/comments',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.600753,
+  'stage_start_time' => 1730365114.600753,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000058	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0001609325408935547,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/comments',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.600913,
+  'stage_start_time' => 1730365114.600913,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000059	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00021004676818847656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/imageeffects',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.60112,
+  'stage_start_time' => 1730365114.601121,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000060	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002040863037109375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/imageeffects',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.601324,
+  'stage_start_time' => 1730365114.601324,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000061	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00020599365234375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/import',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.601528,
+  'stage_start_time' => 1730365114.601528,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000062	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00019311904907226562,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/import',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.60172,
+  'stage_start_time' => 1730365114.60172,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000063	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00019598007202148438,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/publicgallery',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.601914,
+  'stage_start_time' => 1730365114.601914,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000064	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00017905235290527344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/publicgallery',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.602092,
+  'stage_start_time' => 1730365114.602092,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000065	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00041604042053222656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/watermark',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.602504,
+  'stage_start_time' => 1730365114.602504,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000066	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00039887428283691406,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/photos/plugins/watermark',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.602902,
+  'stage_start_time' => 1730365114.602902,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000067	6BA	TRACE	1.23Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004401206970214844,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/brands',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.603338,
+  'stage_start_time' => 1730365114.603338,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000068	6BA	TRACE	1.23Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003039836883544922,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/brands',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.603641,
+  'stage_start_time' => 1730365114.603641,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000069	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00041103363037109375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/chestnyznak',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.604048,
+  'stage_start_time' => 1730365114.604049,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000070	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003190040588378906,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/chestnyznak',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.604366,
+  'stage_start_time' => 1730365114.604366,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000071	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003859996795654297,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/cml1c',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.604749,
+  'stage_start_time' => 1730365114.604749,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000072	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00038313865661621094,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/cml1c',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.605131,
+  'stage_start_time' => 1730365114.605131,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000073	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003781318664550781,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/consignmentru',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.605507,
+  'stage_start_time' => 1730365114.605507,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000074	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00037407875061035156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/consignmentru',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.60588,
+  'stage_start_time' => 1730365114.60588,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000075	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003809928894042969,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/debug',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.606258,
+  'stage_start_time' => 1730365114.606258,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000076	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00036215782165527344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/debug',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.606619,
+  'stage_start_time' => 1730365114.606619,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000077	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003712177276611328,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/favoriteproducts',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.606986,
+  'stage_start_time' => 1730365114.606987,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000078	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00045490264892578125,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/favoriteproducts',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.607439,
+  'stage_start_time' => 1730365114.607439,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000079	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004630088806152344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/genorder',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.607898,
+  'stage_start_time' => 1730365114.607898,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000080	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00040411949157714844,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/genorder',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.608301,
+  'stage_start_time' => 1730365114.608302,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000081	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004551410675048828,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/invoice',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.608753,
+  'stage_start_time' => 1730365114.608753,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000082	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004169940948486328,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/invoice',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.609169,
+  'stage_start_time' => 1730365114.609169,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000083	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004038810729980469,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/invoiceru',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.609571,
+  'stage_start_time' => 1730365114.609571,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000084	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002391338348388672,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/invoiceru',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.609809,
+  'stage_start_time' => 1730365114.609809,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000085	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003170967102050781,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/migrate',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.610124,
+  'stage_start_time' => 1730365114.610124,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000086	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00040793418884277344,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/migrate',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.610531,
+  'stage_start_time' => 1730365114.610531,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000087	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00037097930908203125,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/redirect',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.6109,
+  'stage_start_time' => 1730365114.6109,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000088	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002560615539550781,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/redirect',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.611155,
+  'stage_start_time' => 1730365114.611155,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000089	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003399848937988281,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/transferconsignment',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.611493,
+  'stage_start_time' => 1730365114.611493,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000090	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003609657287597656,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/transferconsignment',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.611853,
+  'stage_start_time' => 1730365114.611853,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000091	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002582073211669922,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/watermark',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.612109,
+  'stage_start_time' => 1730365114.612109,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000092	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004639625549316406,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/watermark',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.612572,
+  'stage_start_time' => 1730365114.612572,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000093	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00025200843811035156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/yandexmarket',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.612822,
+  'stage_start_time' => 1730365114.612822,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000094	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00022602081298828125,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/shop/plugins/yandexmarket',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.613047,
+  'stage_start_time' => 1730365114.613047,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000095	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004420280456542969,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/site/plugins/rublesign',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.613486,
+  'stage_start_time' => 1730365114.613486,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000096	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004458427429199219,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/site/plugins/rublesign',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.61393,
+  'stage_start_time' => 1730365114.613931,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000097	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0002779960632324219,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/caldav',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.614206,
+  'stage_start_time' => 1730365114.614206,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000098	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00039696693420410156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/caldav',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.614602,
+  'stage_start_time' => 1730365114.614602,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000099	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00041294097900390625,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/googlecalendar',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.61501,
+  'stage_start_time' => 1730365114.61501,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000100	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003819465637207031,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/googlecalendar',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.61539,
+  'stage_start_time' => 1730365114.61539,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000101	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0003228187561035156,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/ics',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.61571,
+  'stage_start_time' => 1730365114.61571,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000102	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0005290508270263672,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/ics',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.616238,
+  'stage_start_time' => 1730365114.616238,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000103	6BA	TRACE	1.24Mb	1.59Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0005078315734863281,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/office365',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.616742,
+  'stage_start_time' => 1730365114.616743,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000104	6BA	TRACE	1.24Mb	1.59Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1730365114,
+  'start_time_float' => 1730365114.581324,
+  'elapsed_time' => 0.0,
+  'stage' => 'updatf',
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0004730224609375,
+  'thread_id' => '6BA',
+  'chunk_id' => 'wa-apps/team/plugins/office365',
+  'stage_status' => 'complete',
+  'timestamp' => 1730365114,
+  'timestamp_float' => 1730365114.617214,
+  'stage_start_time' => 1730365114.617214,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Thu, 31 Oct 2024 08:58:34 +0000',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000105	6BA	DEBUG	1.24Mb	1.59Mb	update_complete
+waInstaller::update
+{------------------------------------------------------------
+array (
+  'update_list' => 
+  array (
+    0 => 
+    array (
+      'source' => '/var/www/html/wa-apps/apiexplorer',
+      'target' => 'wa-apps/apiexplorer/',
+      'slug' => 'wa-apps/apiexplorer',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/apiexplorer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    1 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog',
+      'target' => 'wa-apps/blog/',
+      'slug' => 'wa-apps/blog',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    2 => 
+    array (
+      'source' => '/var/www/html/wa-apps/checklists',
+      'target' => 'wa-apps/checklists/',
+      'slug' => 'wa-apps/checklists',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/checklists/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    3 => 
+    array (
+      'source' => '/var/www/html/wa-apps/contacts',
+      'target' => 'wa-apps/contacts/',
+      'slug' => 'wa-apps/contacts',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/contacts/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    4 => 
+    array (
+      'source' => '/var/www/html/wa-apps/developer',
+      'target' => 'wa-apps/developer/',
+      'slug' => 'wa-apps/developer',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/developer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    5 => 
+    array (
+      'source' => '/var/www/html/wa-apps/dummy',
+      'target' => 'wa-apps/dummy/',
+      'slug' => 'wa-apps/dummy',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/dummy/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    6 => 
+    array (
+      'source' => '/var/www/html/wa-apps/guestbook',
+      'target' => 'wa-apps/guestbook/',
+      'slug' => 'wa-apps/guestbook',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/guestbook/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    7 => 
+    array (
+      'source' => '/var/www/html/wa-apps/guestbook2',
+      'target' => 'wa-apps/guestbook2/',
+      'slug' => 'wa-apps/guestbook2',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/guestbook2/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    8 => 
+    array (
+      'source' => '/var/www/html/wa-apps/installer',
+      'target' => 'wa-apps/installer/',
+      'slug' => 'wa-apps/installer',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/installer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    9 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos',
+      'target' => 'wa-apps/photos/',
+      'slug' => 'wa-apps/photos',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    10 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop',
+      'target' => 'wa-apps/shop/',
+      'slug' => 'wa-apps/shop',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    11 => 
+    array (
+      'source' => '/var/www/html/wa-apps/site',
+      'target' => 'wa-apps/site/',
+      'slug' => 'wa-apps/site',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/site/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    12 => 
+    array (
+      'source' => '/var/www/html/wa-apps/stickies',
+      'target' => 'wa-apps/stickies/',
+      'slug' => 'wa-apps/stickies',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/stickies/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    13 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team',
+      'target' => 'wa-apps/team/',
+      'slug' => 'wa-apps/team',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    14 => 
+    array (
+      'source' => '/var/www/html/wa-apps/ui',
+      'target' => 'wa-apps/ui/',
+      'slug' => 'wa-apps/ui',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/ui/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'info' => NULL,
+    ),
+    15 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/akismet',
+      'target' => 'wa-apps/blog/plugins/akismet/',
+      'slug' => 'wa-apps/blog/plugins/akismet',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/akismet/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    16 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/category',
+      'target' => 'wa-apps/blog/plugins/category/',
+      'slug' => 'wa-apps/blog/plugins/category',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/category/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    17 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/emailsubscription',
+      'target' => 'wa-apps/blog/plugins/emailsubscription/',
+      'slug' => 'wa-apps/blog/plugins/emailsubscription',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/emailsubscription/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    18 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/favorite',
+      'target' => 'wa-apps/blog/plugins/favorite/',
+      'slug' => 'wa-apps/blog/plugins/favorite',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/favorite/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    19 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/gravatar',
+      'target' => 'wa-apps/blog/plugins/gravatar/',
+      'slug' => 'wa-apps/blog/plugins/gravatar',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/gravatar/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    20 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/import',
+      'target' => 'wa-apps/blog/plugins/import/',
+      'slug' => 'wa-apps/blog/plugins/import',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/import/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    21 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/markdown',
+      'target' => 'wa-apps/blog/plugins/markdown/',
+      'slug' => 'wa-apps/blog/plugins/markdown',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/markdown/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    22 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/myposts',
+      'target' => 'wa-apps/blog/plugins/myposts/',
+      'slug' => 'wa-apps/blog/plugins/myposts',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/myposts/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    23 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/tag',
+      'target' => 'wa-apps/blog/plugins/tag/',
+      'slug' => 'wa-apps/blog/plugins/tag',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/tag/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    24 => 
+    array (
+      'source' => '/var/www/html/wa-apps/blog/plugins/troll',
+      'target' => 'wa-apps/blog/plugins/troll/',
+      'slug' => 'wa-apps/blog/plugins/troll',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/blog/plugins/troll/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    25 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/comments',
+      'target' => 'wa-apps/photos/plugins/comments/',
+      'slug' => 'wa-apps/photos/plugins/comments',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/comments/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    26 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/imageeffects',
+      'target' => 'wa-apps/photos/plugins/imageeffects/',
+      'slug' => 'wa-apps/photos/plugins/imageeffects',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/imageeffects/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    27 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/import',
+      'target' => 'wa-apps/photos/plugins/import/',
+      'slug' => 'wa-apps/photos/plugins/import',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/import/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    28 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/publicgallery',
+      'target' => 'wa-apps/photos/plugins/publicgallery/',
+      'slug' => 'wa-apps/photos/plugins/publicgallery',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/publicgallery/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    29 => 
+    array (
+      'source' => '/var/www/html/wa-apps/photos/plugins/watermark',
+      'target' => 'wa-apps/photos/plugins/watermark/',
+      'slug' => 'wa-apps/photos/plugins/watermark',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/photos/plugins/watermark/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    30 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/brands',
+      'target' => 'wa-apps/shop/plugins/brands/',
+      'slug' => 'wa-apps/shop/plugins/brands',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/brands/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    31 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/chestnyznak',
+      'target' => 'wa-apps/shop/plugins/chestnyznak/',
+      'slug' => 'wa-apps/shop/plugins/chestnyznak',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/chestnyznak/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    32 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/cml1c',
+      'target' => 'wa-apps/shop/plugins/cml1c/',
+      'slug' => 'wa-apps/shop/plugins/cml1c',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/cml1c/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    33 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/consignmentru',
+      'target' => 'wa-apps/shop/plugins/consignmentru/',
+      'slug' => 'wa-apps/shop/plugins/consignmentru',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/consignmentru/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    34 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/debug',
+      'target' => 'wa-apps/shop/plugins/debug/',
+      'slug' => 'wa-apps/shop/plugins/debug',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/debug/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    35 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/favoriteproducts',
+      'target' => 'wa-apps/shop/plugins/favoriteproducts/',
+      'slug' => 'wa-apps/shop/plugins/favoriteproducts',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/favoriteproducts/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    36 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/genorder',
+      'target' => 'wa-apps/shop/plugins/genorder/',
+      'slug' => 'wa-apps/shop/plugins/genorder',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/genorder/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    37 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/invoice',
+      'target' => 'wa-apps/shop/plugins/invoice/',
+      'slug' => 'wa-apps/shop/plugins/invoice',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/invoice/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    38 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/invoiceru',
+      'target' => 'wa-apps/shop/plugins/invoiceru/',
+      'slug' => 'wa-apps/shop/plugins/invoiceru',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/invoiceru/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    39 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/migrate',
+      'target' => 'wa-apps/shop/plugins/migrate/',
+      'slug' => 'wa-apps/shop/plugins/migrate',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/migrate/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    40 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/redirect',
+      'target' => 'wa-apps/shop/plugins/redirect/',
+      'slug' => 'wa-apps/shop/plugins/redirect',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/redirect/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    41 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/transferconsignment',
+      'target' => 'wa-apps/shop/plugins/transferconsignment/',
+      'slug' => 'wa-apps/shop/plugins/transferconsignment',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/transferconsignment/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    42 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/watermark',
+      'target' => 'wa-apps/shop/plugins/watermark/',
+      'slug' => 'wa-apps/shop/plugins/watermark',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/watermark/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    43 => 
+    array (
+      'source' => '/var/www/html/wa-apps/shop/plugins/yandexmarket',
+      'target' => 'wa-apps/shop/plugins/yandexmarket/',
+      'slug' => 'wa-apps/shop/plugins/yandexmarket',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/shop/plugins/yandexmarket/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    44 => 
+    array (
+      'source' => '/var/www/html/wa-apps/site/plugins/rublesign',
+      'target' => 'wa-apps/site/plugins/rublesign/',
+      'slug' => 'wa-apps/site/plugins/rublesign',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/site/plugins/rublesign/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    45 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/caldav',
+      'target' => 'wa-apps/team/plugins/caldav/',
+      'slug' => 'wa-apps/team/plugins/caldav',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/caldav/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    46 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/googlecalendar',
+      'target' => 'wa-apps/team/plugins/googlecalendar/',
+      'slug' => 'wa-apps/team/plugins/googlecalendar',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/googlecalendar/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    47 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/ics',
+      'target' => 'wa-apps/team/plugins/ics/',
+      'slug' => 'wa-apps/team/plugins/ics',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/ics/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+    48 => 
+    array (
+      'source' => '/var/www/html/wa-apps/team/plugins/office365',
+      'target' => 'wa-apps/team/plugins/office365/',
+      'slug' => 'wa-apps/team/plugins/office365',
+      'extract_path' => 'wa-data/protected/wa-installer/6BA/update/wa-apps/team/plugins/office365/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => true,
+      'info' => NULL,
+    ),
+  ),
+)
+}------------------------------------------------------------
+2024-10-31T08:58:34+00:0000106	6BA	TRACE	1.37Mb	1.59Mb	update_complete
+waInstaller::__destruct called
+
+
+

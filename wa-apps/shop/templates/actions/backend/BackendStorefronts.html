@@ -1,0 +1,12 @@
+<div class="flexbox" id="s-storefronts-content" {if $wa->userRights('design')}data-design="1"{/if} {if $wa->userRights('pages')}data-pages="1"{/if}>
+    <div class="box s-settings-form">
+        [`Loading...`]
+        <i class="fas fa-spinner fa-spin"></i>
+    </div>
+    <!-- settings placeholder -->
+</div>
+
+<script type="text/javascript" src="{$wa_app_static_url}js/storefronts.js?v{$wa->version()}"></script>
+<script type="text/javascript">
+    $.storefronts.init();
+</script>
