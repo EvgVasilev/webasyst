@@ -1,6 +1,6 @@
 <?php
 return array(
-    'mapi/products' => 'api/GetProducts',
+    'mapi/products' => 'api/getproducts',
 //    'mapi_products' => array(
 //        'url' => 'mapi/products',
 //        'plugin' => 'mapi',

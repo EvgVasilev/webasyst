@@ -1,9 +1,6 @@
 <?php
 
-namespace actions\api;
 use myapi\lib\actions\api\Exception;
-use waJsonController;
-use waRequest;
 
 class shopMApiPluginGetProductsController extends waJsonController
 {
